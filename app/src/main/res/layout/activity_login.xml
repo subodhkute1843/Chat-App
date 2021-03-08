@@ -61,7 +61,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="@dimen/_25ssp"
-            android:layout_marginRight="10dp">
+            android:layout_marginRight="10dp"
+            app:passwordToggleEnabled="true"
+            >
 
 
             <EditText
@@ -86,6 +88,14 @@
             android:background="@drawable/btnshape"
             android:text="Sign In"
             android:textColor="@android:color/white" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:id="@+id/progressBarOfMainActivity"
+            android:layout_marginTop="25dp" />
 
 
     </LinearLayout>

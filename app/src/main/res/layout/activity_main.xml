@@ -19,16 +19,16 @@
             android:layout_height="@dimen/_100ssp"
             android:background="@drawable/chat" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Quick Chat"
-        android:textColor="@android:color/white"
-        android:fontFamily="@font/chonburiregular"
-        android:layout_margin="10sp"
-        android:textSize="@dimen/_29ssp"
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quick Chat"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/chonburiregular"
+            android:layout_margin="10sp"
+            android:textSize="@dimen/_29ssp"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -51,21 +51,21 @@ and a Cup Of Tea."
         android:layout_marginBottom="@dimen/_10ssp"
         >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@android:color/white"
-        android:fontFamily="@font/lato_bold"
-        android:text="From"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/lato_bold"
+            android:text="From"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@android:color/black"
-        android:fontFamily="@font/lato_thin"
-        android:text="Your Dev Subodh Kute"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/lato_regular"
+            android:text="Your Dev Subodh Kute"/>
 
 
     </LinearLayout>
